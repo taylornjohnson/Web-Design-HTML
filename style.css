@@ -1,0 +1,37 @@
+h1 {color:teal ;
+    font-size: 100px;
+    }
+
+.box-set {
+    height: 400px;
+    background: white;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: green;
+    border: 2px solid black;
+}
+
+.box-1 {
+    top: 20px;
+    left: 20px;
+}
+
+.box-2 {
+    bottom: 20px;
+    left: 20px;
+}
+
+.box-3 {
+    top: 20px;
+    right: 20px;
+}
+
+.box-4 {
+    bottom: 20px;
+    right: 20px;
+}
