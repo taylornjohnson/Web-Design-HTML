@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     print("Server received request for 'Home' page...")
-    return "https://kylejamar06.github.io/web-design-challenge/"
+    return "/Users/taylorjohnson/Desktop/personal-class/Web-Design-HTML/dashboard.html"
 
 
 # 4. Define what to do when a user hits the /about route
